@@ -1,0 +1,95 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header, .main, footer{
+	width: 90%;
+	max-width: 1200px;
+	margin: 0px auto;
+}
+.logo{
+	width: 100%;
+	max-height: 100px;
+	background: aqua;
+	border-bottom: 1px solid black;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.logo img{
+	float: left;
+	height: 100%;
+}
+.logo h2{
+	float: left;
+	margin-left: 37%;
+	margin-top: 2.8%;
+	color: white;
+	font-family: monospace;
+}
+header nav{
+	background: dodgerblue;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+header nav ul{
+	list-style: none;
+}
+header nav ul li{
+	float: left;
+}
+header nav ul li a{
+	padding: 15px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: monospace;
+}
+header nav ul li a:hover{
+	background: lightgray;
+	color: black;
+}
+.main form{
+	width: 65%;
+	margin-top: 5%;
+	float: left;
+	padding-left: 35%; 
+}
+	.main form label{
+		width: 100%;
+		float: left;
+		display: inline-block;
+		margin-bottom: 4px;
+		font-size: 20px;
+		font-family: monospace;
+	}
+	.main input[type='text']{
+		float: left;
+		display: inline-block;
+		width: 30%; 
+		padding: 10px;
+		margin-bottom: 10px; 
+	}
+	.main input[type='submit']{
+		float: left;
+		display: inline-block;
+		width: 30%; 
+		padding: 10px;
+		clear: both;
+		font-family: monospace;
+		font-size: 15px;
+		margin-bottom: 50px;
+	}
+footer{
+	background: aqua;
+	font-family: monospace;
+	width: 100%;
+	height: 40px;
+	clear: both;
+	border: 1px solid black;
+	text-align: center;
+}
+	footer strong{
+		display: block;
+		padding-top: 10px;
+	}
